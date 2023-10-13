@@ -1,0 +1,24 @@
+.nav {
+  height: 50px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  padding: 0 40px;
+  background-color: aliceblue;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav_right {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.user {
+  border: 0.5px solid rgba(26, 26, 234, 0.521);
+  padding: 0 5px;
+  font-weight: 500;
+  border-radius: 2px;
+  cursor: pointer;
+}

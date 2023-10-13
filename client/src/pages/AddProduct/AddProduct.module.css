@@ -1,0 +1,17 @@
+Form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  width: min(30rem, 70vw);
+  padding: 2.5rem 2rem;
+  border-radius: 1.5em;
+  margin: 20px auto 0;
+
+  color: white;
+  background-color: #2a2a49;
+}
+
+.submit {
+  margin: 0 200px;
+}
