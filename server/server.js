@@ -7,7 +7,7 @@ import authRoute from "./routes/authRoute.js";
 const app = express();
 
 // middlewares
-app.use(cors());
+app.use(cors({ origin: "https://product-management-client.netlify.app/" }));
 app.use(express.json());
 
 // routes
