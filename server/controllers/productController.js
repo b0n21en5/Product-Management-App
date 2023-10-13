@@ -71,8 +71,6 @@ export const updateProduct = async (req, res) => {
   try {
     const { name, price, featured, rating, company } = req.body;
 
-    const createdAt = new Date();
-
     const existingProduct = await ProductModel.findOne({
       productId: req.params.pid,
     });
@@ -85,8 +83,6 @@ export const updateProduct = async (req, res) => {
     if (featured !== undefined) existingProduct.featured = featured;
     if (rating !== undefined) existingProduct.rating = rating;
     if (company !== undefined) existingProduct.company = company;
-
-    existingProduct.createdAt = createdAt;
 
     const updatedProduct = await existingProduct.save();
 
