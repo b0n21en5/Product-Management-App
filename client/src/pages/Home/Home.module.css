@@ -1,0 +1,49 @@
+.home_cnt{
+  display: flex;
+  gap: 50px;
+  padding: 40px ;
+}
+
+.filters_cnt {
+  display: flex;
+  flex-direction: column;
+  /* padding: 0 40px ; */
+}
+
+.fil_title{
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+main {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.product_cnt {
+}
+
+.product_list {
+  font-size: large;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 4px;
+  width: 160px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.btn_cnt {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+
+.mb_20{
+  margin-bottom: 20px;
+}

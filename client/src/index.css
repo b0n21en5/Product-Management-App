@@ -1,0 +1,21 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: black;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
